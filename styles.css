@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    background-repeat: no-repeat;
+    Background: linear-gradient(rgb(105, 105, 254), rgb(6, 6, 91));
+    margin: 30px;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tuthill {
+    text-align: start;
+    padding: 20px;
+    margin: 20px auto 10px 20px;
+    line-height: 10px;
+    color: rgb(2, 2, 68);
+}
+.btn-nav {
+    display: flex;
+    justify-content: column;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 40px 5px 600px;
+    font-family: inherit;
+    Background: rgb(8, 8, 74);
+    color: white;
+}
+.btn-month1 {
+    display: flex;
+    justify-content: column;
+    width: 180px;
+    padding: 10px;
+    margin: 5px 80px 4px 80px;
+    font-family: inherit;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    Background: rgb(8, 8, 74);
+    color: white;
+}
+.btn-month2 {
+    display: flex;
+    justify-content: column;
+    width: 180px;
+    padding: 10px;
+    margin: 4px 8px 4px auto;
+    font-family: inherit;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    Background: rgb(8, 8, 74);
+    color: white;
+}
+.btn-nav:hover {
+    background: green;
+}
+.btn-month1:hover {
+    background-image: url(poweraps.jpg);
+    width: 180px;
+    height: 40px;
+    background-size: 200px 120px;
+    background-position: bottom;
+}
+.btn-month2:hover {
+    background-image: url(poweraps.jpg);
+    width: 180px;
+    height: 40px;
+    background-size: 200px 120px;
+    background-position: bottom;
+}
