@@ -1,10 +1,23 @@
 body {
     display: flex;
+    justify-content: flex-start;
     background-repeat: no-repeat;
     Background: linear-gradient(rgb(105, 105, 254), rgb(6, 6, 91));
     width: 100vw;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home {
+    display: flex;
+    justify-content: column;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px auto;
+    font-family: inherit;
+    Background: rgb(8, 8, 74);
+    color: white;
+    border-radius: 10px;
 }
 .tuthill {
     text-align: start;
@@ -24,10 +37,12 @@ body {
     font-family: inherit;
     Background: rgb(8, 8, 74);
     color: white;
+    border-radius: 10px;
 }
 .btn-month1 {
     display: flex;
     justify-content: column;
+    justify-items: center;
     width: 180px;
     padding: 10px;
     margin: 5px 80px 4px 80px;
@@ -36,10 +51,12 @@ body {
     text-shadow: 2px 2px black;
     Background: rgb(8, 8, 74);
     color: white;
+    border-radius: 10px;
 }
 .btn-month2 {
     display: flex;
     justify-content: column;
+    justify-items: right;
     width: 180px;
     padding: 10px;
     margin: 4px 8px 4px auto;
@@ -48,6 +65,7 @@ body {
     text-shadow: 2px 2px black;
     Background: rgb(8, 8, 74);
     color: white;
+    border-radius: 10px;
 }
 .btn-nav:hover {
     background: green;
