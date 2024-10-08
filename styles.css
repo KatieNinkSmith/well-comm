@@ -2,7 +2,6 @@ body {
     display: flex;
     background-repeat: no-repeat;
     Background: linear-gradient(rgb(105, 105, 254), rgb(6, 6, 91));
-    margin: 30px;
     width: 100vw;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,7 +9,7 @@ body {
 .tuthill {
     text-align: start;
     padding: 20px;
-    margin: 20px auto 10px 20px;
+    margin: 10px auto 10px 20px;
     line-height: 10px;
     color: rgb(2, 2, 68);
 }
@@ -19,8 +18,8 @@ body {
     justify-content: column;
     width: 180px;
     height: 40px;
-    padding: 10px;
-    margin: 5px 40px 5px 600px;
+    padding: 20px;
+    margin: 5px 20px 5px auto;
     font-family: inherit;
     Background: rgb(8, 8, 74);
     color: white;
