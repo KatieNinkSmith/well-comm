@@ -8,18 +8,19 @@ body {
 }
 .tuthill {
     text-align: start;
-    padding: 20px;
-    margin: 10px auto 10px 20px;
+    padding: 5px;
+    margin: 5px auto 5px 40px;
     line-height: 10px;
     color: rgb(2, 2, 68);
 }
 .btn-nav {
     display: flex;
     justify-content: column;
+    justify-items: right;
     width: 180px;
     height: 40px;
-    padding: 20px;
-    margin: 5px 20px 5px auto;
+    padding: 10px;
+    margin: 5px 20px 5px 80px;
     font-family: inherit;
     Background: rgb(8, 8, 74);
     color: white;
