@@ -17,7 +17,7 @@ body {
     font-family: inherit;
     Background: rgb(8, 8, 74);
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .tuthill {
     text-align: start;
@@ -37,26 +37,12 @@ body {
     font-family: inherit;
     Background: rgb(8, 8, 74);
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
 }
-.btn-month1 {
+.btn-nav2 {
     display: flex;
     justify-content: column;
-    justify-items: center;
-    width: 180px;
-    padding: 10px;
-    margin: 5px 80px 4px 80px;
-    font-family: inherit;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
-    Background: rgb(8, 8, 74);
-    color: white;
-    border-radius: 10px;
-}
-.btn-month2 {
-    display: flex;
-    justify-content: column;
-    justify-items: right;
+    justify-items: flex-start;
     width: 180px;
     padding: 10px;
     margin: 4px 8px 4px auto;
@@ -65,22 +51,11 @@ body {
     text-shadow: 2px 2px black;
     Background: rgb(8, 8, 74);
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .btn-nav:hover {
     background: green;
 }
-.btn-month1:hover {
-    background-image: url(poweraps.jpg);
-    width: 180px;
-    height: 40px;
-    background-size: 200px 120px;
-    background-position: bottom;
-}
-.btn-month2:hover {
-    background-image: url(poweraps.jpg);
-    width: 180px;
-    height: 40px;
-    background-size: 200px 120px;
-    background-position: bottom;
+.btn-nav2:hover {
+    background: green;
 }
