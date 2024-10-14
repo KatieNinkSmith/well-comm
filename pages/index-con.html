@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tuthill Well Contact Us</title>
-  <link rel="stylesheet" href="../styles/styles.css" />
-</head>
-<body>
-  <a href="../index.html"><button class="home">HOME</button></a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuthill Well Contact Us</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          <a href="../index.html"
+            ><img id="logo2" src="../well-logoHome.jpg" alt="well logo" />
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <fieldset id="contactUs">
+        <legend>Send Us a Message</legend>
+        <label for="email"
+          >Email
+          <input type="email" placeholder="Enter Your Email" />
+        </label>
+        <br />
+        <label for="message"
+          >Enter Your Message Below And We Will Get Back To You With In 3
+          Busiess days.
+          <textarea name="message" id="message" rows="10" cols="40"></textarea>
+        </label>
+        <br />
+        <input type="submit" value="Send Your Message" />
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <legend>Emergency</legend>
+        <label for="radio1">
+          <input type="radio" name="emergency" id="radio1" />Well Leak
+        </label>
+        <label for="radio2">
+          <input type="radio" name="emergency" id="radio2" />No Power
+        </label>
+        <label for="radio3">
+          <input type="radio" name="emergency" id="radio3" />No Water
+        </label>
+        <br />
+        <input type="sumbit" value="Send Emergency Notice" />
+      </fieldset>
+    </section>
+  </body>
 </html>

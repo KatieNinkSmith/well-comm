@@ -5,19 +5,67 @@
   <title>Tuthill Well APS</title>
   <link rel="stylesheet" href="../styles/styles.css" />
   <body>
+    <header>
     <div>
-    <a href="../index.html"><button class="btn-nav2">HOME</button></a>
-    <a href="../pdf/aps-oct-2024.pdf" target="_self"><button class="btn-nav2">2024</button></a>
-    <a href="../pdf/aps-may-2023.pdf" target="_self"><button class="btn-nav2">2023</button></a>
+      <ul>
+        <li>
+          <a href="../index.html">
+            <img id="logo2" src="../well-logoHome.jpg" alt="well logo" />
+          </a>
+        </li>
+        <li>
+          <a>
+            <label for="months2024">2024</label>
+            <select name="months2024" id="apsDropdown">
+              <option value="month">January</option>
+              <option value="month">Febuary</option>
+              <option value="month">March</option>
+              <option value="month">April</option>
+              <option value="month">May</option>
+              <option value="month">June</option>
+              <option value="month">July</option>
+              <option value="month">August</option>
+              <option value="month">September</option>
+              <option value="month" selected>October</option>
+              <option value="month">November</option>
+              <option value="month">December</option>
+            </select></a
+          >
+        </li>
+        <li>
+          <a>
+            <label for="months2023">2023</label>
+            <select name="months2023" id="apsDropdown">
+              <option value="month" selected>May</option>
+              <option value="month">June</option>
+              <option value="month">July</option>
+              <option value="month">August</option>
+              <option value="month">September</option>
+              <option value="month">October</option>
+              <option value="month">November</option>
+              <option value="month">December</option>
+            </select>
+          </a>
+        </li>
+      </ul>
     </div>
+    </header>
+    <section>
     <div>
-      <object data="../pdf/aps-oct-2024.pdf" type="application/pdf" width="600px" height="700px">
-        <p>Your web browser doesn't have a PDF plugin.
-         <a href="../pdf/aps-oct-2024.pdf">click here to download the PDF file.</a>
+      <object
+        data="../pdf/aps-oct-2024.pdf"
+        type="application/pdf"
+        width="600px"
+        height="700px"
+      >
+        <p>
+          Your web browser doesn't have a PDF plugin.
+          <a href="../pdf/aps-oct-2024.pdf"
+            >click here to download the PDF file.</a
+          >
         </p>
       </object>
     </div>
-    <div>
-    </div>
+    </section>
   </body>
 </html>
